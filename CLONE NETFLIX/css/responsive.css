@@ -1,0 +1,739 @@
+/*   RESPONSIVIDADE  */ 
+
+
+@media (max-width: 1201px) /*  telas muito grandes, TVs  */ {
+    
+    header figure img{
+        margin-left: 20px;
+    }
+
+    .bnt{
+        margin-right: 60px;
+    }
+
+    .assista5{
+        margin: 20px;
+    }
+
+    .info h1{
+        font-size: 40px;
+    }
+
+    .info p{
+        font-size: 25px;
+       
+    }
+
+    .info h3{
+        font-size: 20px;
+    }
+
+    .enter{
+        gap: 10px
+    }
+
+    .tv{
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+
+    .tv p{
+        margin-top: 30px;
+    }
+
+    .assista{
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+
+    .assista p{
+        margin-top: 30px;
+    }
+
+    .assista2{
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+
+    .assista2 p{
+        margin-top: 30px;
+    }
+
+    .assista3{
+        margin-left: 8px;
+        margin-right: 35px;
+    }
+
+    .assista3 p{
+        margin-top: 30px;
+    }
+
+    .assista3 figure img{
+        width: 600px;
+
+    }
+
+    .assista4{
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+
+    .assista4 p{
+        margin-top: 30px;
+    }
+
+    .assista5{
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+
+    .assista5 p{
+        margin-top: 30px;
+    }
+
+    .perguntas{
+        width: 90%;
+    }
+    }
+
+
+
+@media (max-width: 1024px) /* desktops, telas grandes */ {
+
+    .background{
+        height: 590px;
+
+    }
+
+    .info h1{
+        font-size: 35px;
+    }
+
+    .info{
+        margin: 80px 30px;
+    }
+
+
+
+    .info h3{
+        font-size: 18px;
+    }
+
+    .info p{
+        font-size: 20px;  
+    }
+
+    .container{
+        gap: 20px
+    }
+
+    .popcorn-info h2{
+        font-size: 22px;
+    }
+
+
+    .popcorn-info p{
+        font-size: 18px;
+
+    }
+
+    .popcorn-info a{
+        font-size: 18px;
+    }
+
+    .tv{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+    .tv video{
+        width: 70%;
+        margin-top: 50px;
+        margin-right: 50px;
+    }
+
+    .tv p{
+        font-size: 25px;
+        max-width: 600px;
+    }
+
+    .tv h2{
+        font-size: 50px;
+    }
+
+    .assista{
+        flex-direction: column-reverse;
+        text-align: center;
+
+    }
+
+    .assista video{
+        width: 70%;
+        margin-top: 50px;
+
+    }
+    .assista-info{
+       margin: 0;
+
+    }
+
+    .assista p{
+        font-size: 25px;
+        max-width: 700px;
+    }
+
+    .assista h2{
+        font-size: 50px;
+    }
+
+    .assista2{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .assista2 img{
+        width: 70%;
+        margin-top: 50px;
+    }
+
+    .assista2 h2{
+        font-size: 50px;
+    }
+
+    .assista2 p{
+        font-size: 25px;
+        max-width: 750px;
+        
+    }
+
+    .assista3{
+        flex-direction: column-reverse;
+        text-align: center;
+
+    }
+
+    .assista3 h2{
+        font-size: 50px;
+        margin-left: 80px;
+
+    }
+
+    .assista3 p{
+        font-size: 25px;
+        margin-left: 80px;
+    }
+    
+    .assista3 figure img{
+        width: 80%;
+    }
+
+
+    .assista3 figure img{
+         width: 100%;
+         margin: 0 auto;    
+       
+    }
+
+    .assista4{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .assista4 h2{
+        font-size: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .assista4 p{
+        font-size: 25px;
+        margin: auto;
+        margin-top: 40px;
+        
+    }
+
+    .assista4 img{
+        width: 70%;
+        margin-top: 50px;
+        
+    }
+
+    .assista5{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+
+    .assista5 h2{
+        font-size: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .assista5{
+        margin: auto;
+    }
+
+
+    .assista5 p{
+        font-size: 25px;
+        max-width: 600px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+
+    .assista5 figure img{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .perguntas{
+        width: 95%;
+    }
+
+    .perguntas h1{
+        font-size: 45px;
+    }
+
+}
+
+  
+
+@media (max-width: 769px)  /* telas pequenas, laptops */ {
+
+
+    .background{
+        height: 550px;
+    }
+
+    header figure img{
+        
+        width: 130px;
+    }
+
+    .popcorn{
+        margin: 60px;
+        padding: 10px;
+        background: radial-gradient(51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, rgb(23, 40, 100) 100%);
+        box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.5);
+    }
+
+ 
+
+    .info p{
+        font-size: 18px;
+    }
+
+    .info h3{
+        font-size: 15px;
+    }
+
+
+    .button-vamos-la {
+        font-size: 18px;
+    }
+
+    .popcorn{
+        margin-top: 0px;
+    
+    }
+
+    .popcorn-icon{
+        display: none;
+    }
+
+    .popcorn-info h2{
+        font-size: 19px;
+    }
+
+
+    .popcorn-info p{
+        font-size: 15px;
+
+    }
+
+    .popcorn-info a{
+        font-size: 16px;
+    }
+
+
+    .button-vamos-la{
+        padding: 15px;
+        font-size: 18px;
+
+    }
+
+    .input-email{
+        padding: 15px;
+        width: 320px;
+        
+    }
+
+ 
+
+    .tv p{
+        font-size: 18px;
+        max-width: 600px;
+        margin-top: 30px;
+    }
+
+    .tv h2{
+        font-size: 40px;
+    }
+
+  
+    .assista p{
+        font-size: 18px;
+        max-width: 700px;
+    }
+
+    .assista h2{
+        font-size: 40px;
+    }
+
+
+    .assista2 h2{
+        font-size: 40px;
+    }
+
+    .assista2 p{
+        font-size: 18px;
+        max-width: 600px; 
+    }
+
+    .assista3{
+        margin-top: 120px;
+        margin: auto;
+    }
+
+
+    .assista3 h2{
+        font-size: 40px;
+        margin-top: 70px;
+    }
+
+    .assista3 p{
+        font-size: 18px;
+        max-width: 750px;
+    }
+    
+    .assista3 figure img{
+        width: 80%;
+    }
+
+
+    .assista3 figure img{
+         width: 100%;
+         margin: 0 auto;    
+       
+    }
+
+    .assista4{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .assista4 h2{
+        font-size: 40px;
+        
+    }
+
+    .assista4 p{
+        font-size: 18px;
+    }
+
+    .assista4 img{
+        width: 70%;
+        margin-top: 50px;
+    }
+
+    .assista5{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+
+    .assista5 h2{
+        font-size: 40px;
+    }
+
+    .assista5{
+        margin: auto;
+    }
+
+
+    .assista5 p{
+        font-size: 18px;
+        max-width: 500px;
+    }
+    
+
+    .assista5 figure img{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .perguntas{
+        width: 90%;
+    }
+
+    .perguntas h1{
+        font-size: 35px;
+    }
+
+    .perguntas details summary{
+        font-size: 18px;
+        padding: 3px 30px;
+    
+    }
+
+    .perguntas details p{
+        font-size: 18px;
+    }
+
+    .assinatura h3{
+        font-size: 18px;
+
+    }
+
+    .botao2 input{
+        padding: 15px;
+        font-size: 15px;
+    
+    }
+
+    .button-vamos-la2{
+        font-size: 17px;
+        width: 150px;
+    }
+     
+
+}
+
+
+@media (max-width: 585px) /*  iPads, tablets  */ {
+ 
+     .container figure img{
+        width: 100px;
+    }
+
+    .background{
+        height: 500px;
+    }
+
+    select{
+        display: none;
+    }
+
+    .info{
+        margin: 80px 30px;
+    }
+
+    .info h1{
+        font-size: 30px;
+        margin-top: -40px;
+
+    }
+
+    .info h3{
+        margin: auto;
+        font-size: 16px;
+        max-width: 400px;
+    }
+
+    .info p{
+        font-size: 17px;  
+    }
+
+    form{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-vamos-la {
+        font-size: 15px;
+        width: 120px;
+    }
+
+    .input-email{
+        padding: 15px;
+        width: 80%;
+        
+    }
+
+    .popcorn-icon{
+        display: none;
+    }
+
+    .popcorn{
+        width: 85%;
+        margin: auto;
+    }
+
+    .tv h2{
+        font-size: 30px;
+    }
+
+    .tv p{
+        font-size: 16px;
+    }
+
+  
+    .assista h2{
+        font-size: 30px;
+    }
+
+    .assista{
+        font-size: 16px;
+    }
+
+
+    .assista2 h2{
+        font-size: 30px;
+    }
+
+    .assista2 p{
+        font-size: 16px;
+        
+    }
+
+
+    .assista3 h2{
+        font-size: 30px;
+        max-width: 400px;
+        margin-top: 70px;
+    }
+
+    
+
+    .assista3 p{
+        font-size: 16px;
+    }
+
+
+    .assista4 h2{
+        font-size: 30px;
+        margin: auto;
+
+        
+    }
+
+    .assista4 p {
+        font-size: 16px;
+    }
+
+
+    .assista5{
+        margin: auto;
+    }
+
+
+    .assista5 h2{
+        font-size: 30px;
+  
+
+    }
+
+    .assista5 p{
+        font-size: 16px;
+        max-width: 400px;
+
+
+    }
+
+    .info{
+        justify-content: space-between;
+    }
+    
+
+    .assista5 figure img{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .perguntas{
+        width: 88%;
+    }
+
+    .perguntas h1{
+        font-size: 30px;
+    }
+
+   
+    .assinatura h3{
+        font-size: 15px;
+        text-align: center;
+
+    }
+
+    footer{
+        margin-left: 30px;
+    }
+
+}
+
+@media (max-width: 482px){
+  
+  .bnt{
+    margin-left: -20px;
+  }
+  
+  .background{
+    height: 550px
+   
+  }
+  
+
+
+@media (max-width: 376px){
+    .container figure img{
+        width: 60px;
+    }
+    
+
+    .info{
+        margin: 50px 30px;
+    }
+
+    .info h1{
+        font-size: 30px;
+        max-width: 600px;
+    }
+
+    .input-email{
+        width: 80%;
+    }
+
+    .popcorn{
+        margin: auto;
+        width: 270px;
+    }
+
+    .popcorn-info{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+}
+
+@media (max-width: 340px){
+    .info h1{
+        font-size: 28px;
+    }
+
+    .info p{
+        font-size: 14px;
+    }
+
+    .info h2{
+        font-size: 16px;
+    }
+}
+
+
+
+
